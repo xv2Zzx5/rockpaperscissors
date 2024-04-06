@@ -1,0 +1,51 @@
+
+body{
+    background-color:cornflowerblue;
+
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+p{
+    color: white;
+    font-size:30px; 
+}
+h1{
+    color:white;
+    font-size:30px;
+}
+.start{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.disabled{
+    display: none;
+}
+.footer h2{
+    color: white;
+    font-size:40px;
+}
+.buttons{
+    display: flex;
+}
+button{
+    height:40px;
+    width:100px;
+}
+.footer button:hover{
+    background-color: lightcyan;
+    cursor: pointer;
+}
